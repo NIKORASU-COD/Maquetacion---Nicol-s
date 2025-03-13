@@ -1,0 +1,24 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+#container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+#encabezado{
+    width: 100%;
+    border-bottom: 1px ridge rgb(196, 196, 196);
+    height: 55px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 25px;
+}
+#menu{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
