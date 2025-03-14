@@ -2,7 +2,14 @@
 margin: 0;
 padding: 0;
 }
-
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
 #container{
     display: grid;
     /*grid-template-columns: repeat(3, 1fr); indica el numero de comulnas, repeat (n° columnas, tamaño columnas)*/
@@ -33,13 +40,43 @@ footer{
     grid-column: 1/4;
 }
 
-#section_main{
-    border: 2px solid black;
-    grid-column: 1/5;
-    
-}
 #div_main{
-    display: grid;grid-template-columns: repeat(4, 25%);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 105px 150px 475px;
     
 
+}
+#personal{
+    grid-column: 1/5;
+    text-align: center;
+    border: 1.8px solid black;
+    border-radius: 10px;
+    margin-top: 2%;
+    width: 96.5%;
+    margin: auto;
+    height: 90%;
+    background-color: white;
+}
+
+.historias{
+    width: 90%;
+    border: 1.8px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin: auto;
+    height: 90%;
+    background-color: white;
+    
+}
+#cuerpo{
+    grid-column: 1/5;
+    border: 1.8px solid black;
+    border-radius: 10px;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    height: 95%;
+    background-color: white;
 }
